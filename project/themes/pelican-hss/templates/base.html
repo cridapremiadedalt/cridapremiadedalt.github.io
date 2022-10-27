@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/vnd.microsoft.icon" href="{{ SITEURL }}/{{ FAVICON }}">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto+Mono">
+  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="{{ AUTHOR }}">
+  <meta name="description" content="Posts and writings by {{ AUTHOR }}">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  {% block head %}
+  {% endblock %}
+
+  <title>
+    {{ SITENAME }}
+    {% block title %}{% endblock %}
+  </title>
+
+  {% include "modules/analytics.html" %}
+
+</head>
+
+<body>
+  <main>
+    <header>
+    
+      <div class="logo">
+        <img class="logo-image" src="{{ SITEURL }}/theme/images/squared_logo.png" alt="squared_logo">
+      </div>
+      <div class="title">
+        <a href="/">
+          {{ SITENAME|upper }}
+        </a>
+      </div>
+    
+    </header>
+    <div class="sub-header">
+      <div class="links">
+        {% for name, link, logo in LINKS %}
+          <a href={{link}}><i class="{{logo}}"></i> {{name}}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="content">
+
+      {% block content %}
+      {% endblock %}
+
+    </div>
+
+  </main>
+    <footer>
+        <div class="social ul-horizontal">
+          <ul>
+            {% for name, link, placeholder in SOCIAL %}
+            <li>
+              <a href="{{ link }}" target="_blank" title="{{ name }}">
+              {% if name == 'twitter' %}
+                <i class="fa fa-twitter-square"></i>
+              {% elif name == 'github' %}
+                <i class="fa fa-github-square"></i>
+              {% elif name == 'facebook' %}
+                <i class="fa fa-facebook-square"></i>
+              {% elif name == 'googleplus' or name == 'google+' %}
+                <i class="fa fa-google-plus-square"></i>
+              {% elif name == 'hatebu' %}
+                <i class="fa fa-hatebu-square"></i>
+              {% elif name == 'bitbucket' %}
+                <i class="fa fa-bitbucket-square"></i>
+              {% elif name == 'instagram' %}
+                <i class="fa fa-instagram"></i>
+              {% elif name == 'linkedin' %}
+                <i class="fa fa-linkedin-square"></i>
+                {% elif name == 'youtube' %}
+                <i class="fa fa-youtube-square"></i>
+              {% elif name == 'email' %}
+                <i class="fa fa-envelope-square"></i>
+              {% endif %}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="ending-message">
+          <p>Troba el codi lliure a <a href="https://github.com/cridapremiadedalt/pagina-web">GitHub</a>. El lloc web funciona gràcies a <a href="http://getpelican.com" target="_blank">Pelican</a></p>
+        </div>
+    </footer>
+</body>
+</html>

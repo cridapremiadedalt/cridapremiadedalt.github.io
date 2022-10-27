@@ -1,0 +1,123 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:link{
+    color:inherit;
+    text-decoration: inherit;
+}
+
+a:hover{
+    color: grey
+}
+
+header{
+    width: 100%;
+    background-color: #DB001A;
+    position: relative;
+    float: left;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        float: left;
+    }
+        .logo-image{
+            max-width: 40px;
+        }
+    .title{
+        padding:5px;
+        position: relative;
+        float: left;
+        color: white;
+        font-size: 24px;
+        width: calc(100% - 40px - 10px)
+    }
+    .title a:hover, .title a:visited, .title a:link, .title a:active
+    {
+    text-decoration: none;
+    color: white;
+    }
+
+.sub-header{
+    width: 100%;
+    position:relative;
+    float:left;
+}
+    .sub-header .links {
+        padding-top: 10px;
+        padding-left: 45px;
+        color: black;
+        font-weight: bold;
+        word-spacing: 10px;
+    }
+
+.content{
+    position:relative;
+    float:left;
+    margin-top:10px;
+    width: 100%;
+    }
+    article{
+        margin-left: 40px;
+        background-color: inherit;
+        position:relative;
+        float:left;
+        width: calc(100% - 40px);
+    }
+    .article__title{
+        font-size:small
+    }
+
+footer{
+    background-color: lightgray;
+    position:relative;
+    float:left;
+    margin-top:10px;
+    width: 100%;
+    }
+    .social{
+        position:relative;
+        float:left;
+        width: 100%;
+        }
+        .social.ul-horizontal {
+            list-style: none;
+            margin: 0;
+            padding: 8px;
+            display: inline-block;
+        }
+        .social.ul-horizontal li {
+            float: left;
+            margin: 0;
+            padding-left: 5px;
+            list-style-type: none;
+        }
+
+    .ending-message{
+        position:relative;
+        float:left;
+        font-size: small;
+        width: 100%;
+        text-align: center;    
+    }
+
+
+@media only screen and (max-width: 600px) {
+    article {
+        margin-left: 10px;
+        width: calc(100% - 10px);
+    }
+    }

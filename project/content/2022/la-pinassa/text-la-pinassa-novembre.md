@@ -1,0 +1,32 @@
+Title: Demanem la rescissió del contracte amb Desokupa i la dimissió de l'alcalde com a màxim responsable
+Date: 2022-11-01 07:25
+Category: Escrits a La Pinassa
+Author: La Crida
+Tags: Covid-19, Okupació
+Summary: L’equip de govern contracta DESOKUPA per “assessorar la policia local en el desallotjament
+d’ocupacions il·legals”.
+
+L’equip de govern contracta DESOKUPA per “assessorar la policia local en el desallotjament
+d’ocupacions il·legals”.
+
+És difícil d’entendre el somriure amb què l’alcalde (Junts), el regidor de seguretat (PSC) i el
+d’esports segellaven l’acord amb el responsable de Desokupa, que ha insultat greument per
+xarxes els independentistes. Una empresa vinculada amb l’extrema dreta -Vox ha aplaudit el
+contracte-, amb membres paramilitars, i feixistes amb esvàstiques tatuades i condemnes per
+intent d’homicidi.
+
+Diu l’alcalde que no els contracta per la seva ideologia sinó per la seva experiència, que segons
+26 denúncies de Mossos, són actuacions fora de la llei, pràctiques violentes, extorsió,
+suplantació, amenaces.
+
+No podem permetre aquesta manca d’ètica i de respecte als drets humans i a la dignitat de les
+persones perpetrada per partits polítics que es diuen democràtics. Que una institució pública
+tracti amb una empresa així fa trontollar els principis democràtics i és un precedent molt perillós
+(l’empresari ha dit que és un abans i un després i ara el truquen més ajuntaments).
+
+És intolerable que Junts i PSC pensin en l’extrema dreta per solucionar problemes i encarreguin
+a un cos parapolicial un servei públic. Demostra la incapacitat de gestionar el municipi i de donar
+resposta a les necessitats i preocupacions de veïns i veïnes.
+
+Per això demanem la rescissió del contracte, cap relació amb Desokupa, i la dimissió de l’Alcalde
+per haver-lo signat.

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block head %}
+<meta name="keywords" content="">
+<title>Contacte | Crida Premià de Dalt</title>
+<meta name="tags" content="thats, awesome" />
+<meta name="date" content="2022-10-10 23:59"/>
+<meta name="modified" content="2022-10-10 23:59" />
+<meta name="category" content="yeah" />
+<meta name="authors" content="Crida Premià de Dalt" />
+<meta name="description" content="Adreces de contacte de Crida Premià de Dalt" />
+{% endblock %}
+
+{% block content %}
+
+<article>
+  <h1>Contacte</h1>
+
+        {% for name, link, placeholder in SOCIAL %}
+        <p>
+                <a href="{{ link }}" target="_blank" title="{{ name }}">
+                        {% if name == 'twitter' %}
+                          <i class="fa fa-twitter-square"></i>
+                        {% elif name == 'github' %}
+                          <i class="fa fa-github-square"></i>
+                        {% elif name == 'facebook' %}
+                          <i class="fa fa-facebook-square"></i>
+                        {% elif name == 'googleplus' or name == 'google+' %}
+                          <i class="fa fa-google-plus-square"></i>
+                        {% elif name == 'hatebu' %}
+                          <i class="fa fa-hatebu-square"></i>
+                        {% elif name == 'bitbucket' %}
+                          <i class="fa fa-bitbucket-square"></i>
+                        {% elif name == 'instagram' %}
+                          <i class="fa fa-instagram"></i>
+                        {% elif name == 'linkedin' %}
+                          <i class="fa fa-linkedin-square"></i>
+                        {% elif name == 'youtube' %}
+                          <i class="fa fa-youtube-square"></i>
+                        {% elif name == 'email' %}
+                          <i class="fa fa-envelope-square"></i>
+                        {% endif %}
+                {{ name }} : {{placeholder}}        
+                </a>
+        </p>
+        {% endfor %}
+</article>
+
+{% endblock %}
