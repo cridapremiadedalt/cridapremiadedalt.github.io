@@ -2,6 +2,8 @@ AUTHOR = 'La Crida'
 SITENAME = 'Crida Premià de Dalt'
 SITEURL = ''
 
+OUTPUT_PATH = 'docs/'
+
 THEME = 'themes/pelican-hss'
 
 PATH = 'content'
