@@ -33,8 +33,9 @@ LINKS = (
 # Social links
 SOCIAL = (('twitter', 'https://twitter.com/cridapremiadalt', '@cridapremiadalt'),
           ('facebook', 'https://www.facebook.com/cridapremiadedalt', 'Crida Premià de Dalt'),
-          ('youtube', 'https://www.youtube.com/channel/UCMQkonVf7Swo3icVW0uuwSg', 'Crida Premià de Dalt'),
+          ('youtube', 'https://www.youtube.com/@cridapremiadedalt', '@cridapremiadedalt'),
           ('instagram', 'https://www.instagram.com/crida.pdd', '@crida.pdd'),
+          ('github', 'https://github.com/cridapremiadedalt', '@cridapremiadedalt'),
           ('email', 'mailto:cridapremiadedalt@gmail.com?subject=Contacte%20Crida%20Premi%C3%A0%20de%20Dalt&body=-', 'cridapremiadedalt@gmail.com'))
 
 

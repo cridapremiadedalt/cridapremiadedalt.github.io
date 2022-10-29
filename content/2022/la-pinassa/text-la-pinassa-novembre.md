@@ -2,9 +2,8 @@ Title: Demanem la rescissió del contracte amb Desokupa i la dimissió de l'alca
 Date: 2022-11-01 07:25
 Category: Escrits a La Pinassa
 Author: La Crida
-Tags: Covid-19, Okupació
-Summary: L’equip de govern contracta DESOKUPA per “assessorar la policia local en el desallotjament
-d’ocupacions il·legals”.
+Tags: Okupació
+Summary: L’equip de govern contracta DESOKUPA per “assessorar la policia local en el desallotjament d’ocupacions il·legals”.
 
 L’equip de govern contracta DESOKUPA per “assessorar la policia local en el desallotjament
 d’ocupacions il·legals”.

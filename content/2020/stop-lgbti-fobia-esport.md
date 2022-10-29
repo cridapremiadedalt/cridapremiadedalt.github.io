@@ -1,6 +1,6 @@
 Title: Stop LGBTI-fòbia a l'esport
 Date: 2020-02-27 00:01
-Category: LGBTI
+Category: Esdevenments
 Author: La Crida
 Tags: LGBTI
 Summary: Commemorem el dia mundial contra l’LGBTI-fòbia a l’esport
@@ -9,9 +9,9 @@ Des de la Crida volem contribuir tant com puguem a la lluita per l’alliberamen
 
 Al llarg d’aquest any seguim i seguirem treballant en aquesta línia, i la primera de les diades anuals que commemorem és el dia mundial contra l’LGBTI-fòbia a l’esport:
 
-<img 
-    src="{static}/images/posts/2020/cartell-torneig-lgbti-fobia.webp" 
-    alt="drawing" 
+<img
+    src="{static}/images/posts/2020/cartell-torneig-lgbti-fobia.webp"
+    alt="drawing"
     width="300"
 />
 
