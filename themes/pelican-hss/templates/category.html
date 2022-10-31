@@ -1,16 +1,10 @@
 {% extends "index.html" %}
-{% block title %}&ndash; Category: {{ category }}{% endblock %}
+{% block title %}&ndash; Categoria: {{ category }}{% endblock %}
 
 {% block head %}
-
 {% endblock %}
 
 {% block header %}
-&gt; Category: {{ category }}
-{% if CATEGORY_FEED_ATOM %}
-&brvbar; <a href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category.slug) }}">Atom</a>
-{% endif %}
-{% if CATEGORY_FEED_RSS %}
-&brvbar; <a href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category.slug) }}">RSS</a>
-{% endif %}
+&gt; Categoria: {{ category }}
 {% endblock %}
+

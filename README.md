@@ -30,9 +30,20 @@
 
 ## How to execute the site
 
-`pelican content`
+El primer cop que s'executa s'ha de crear el entorn virtual i instalar-hi les dependències.
 
-`pelican -lr`
+```bash
+virtualenv venv
+source venv/Scripts/activate
+pip intall -r requirements
+```
+
+La resta de vegades que s'executi es pot fer activant el entorn prèviament creat i executant pelican.
+
+```bash
+source venv/Scripts/activate
+pelican -lr
+```
 
 ## Reference links
 

@@ -2,7 +2,7 @@ Title: Resum de les mesures per contribuir a una resposta col·lectiva a la cris
 Date: 2020-03-25 07:25
 Category: Propostes
 Author: La Crida
-Tags: Covid-19
+Tags: Covid19
 Summary: Resum del document de propostes de Crida Premià de Dalt per a fer front al coronavirus.
 
 A continuació teniu el resum de les mesures. Per consultar el comunicat sencer, cliqueu [aquí](/crida-premia-de-dalt-proposa-mesures-per-contribuir-a-una-resposta-collectiva-a-la-crisi-del-coronavirus-que-no-deixi-ningu-enrere.html). I a la pàgina principal trobareu els punts més destacats en imatges.
