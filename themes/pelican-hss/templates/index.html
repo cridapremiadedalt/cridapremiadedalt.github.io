@@ -3,35 +3,28 @@
 
 {% for article in articles_page.object_list %}
 <article>
-  <div class="article__title">
-    <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
+  <div class="article__cover">
+    {% if article.cover %}
+      <img class="fit_to_div" src="{{ article.cover }}" alt="">
+    {% endif %}
   </div>
-  <div class="article__meta">
-    <p class="article__meta__post-date">
+  <div class="article__content">
+    <div class="article__title"><h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2></div>
+    <div class="article__category">
       <a class="link_category" href="{{ SITEURL }}/{{ article.category.url }}"><i class="fa fa-folder" aria-hidden="true"></i>
         {{ article.category }}</a>
-      Publicat el: {{ article.locale_date }}
-    
-    </p>
+    </div>
+    <div class="article__tags">
       {% if article.tags %}
       {% for tag in article.tags %}
       <a class="" href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>{% if not loop.last %},{% endif %}
       {% endfor %}
       {% endif %}
-    </p>
-  </div>
-  <a href="{{ SITEURL }}/{{ article.url }}">
-  {% if article.cover %}
-  <div class="article__cover">
-    <img class="fit_to_div" src="{{ article.cover }}" alt="">
-  <div>
-  {% else %}
-  <div class="article__text">
-    {{ article.summary }}
-  </div>
-  {% endif %}
-</a>
-  
+    </div>
+    <div class="article__date">
+      Publicat el: {{ article.locale_date }}
+    </div>
+  </div> 
 </article>
 {% if not loop.last %}
 <hr />

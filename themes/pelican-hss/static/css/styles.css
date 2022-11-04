@@ -78,23 +78,47 @@ header{
         width: calc(100% - 40px);
     }
         .article__cover{
-            width: 100% ;
+            width: 20% ;
+            position:relative;
+            float:left;
+            border-radius: 20px;
         }
-        .article__title{
-            font-size:small
+
+        .article__content{
+            width: 80%;
+            position:relative;
+            float:left;
         }
-        .link_category{
-            background-color: #ddd;
-            border: none;
-            color: black;
-            padding: 2px 6px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 16px;
-        }
+            .article__title{
+                font-size:small;
+                width:100%
+            }
+            .article__category{
+                position:relative;
+                float:left;
+            }
+                .link_category{
+                    background-color: #ddd;
+                    border: none;
+                    color: black;
+                    padding: 2px 6px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    border-radius: 16px;
+                }
+            .article__tags{
+                position:relative;
+                float:left;
+            }
+
+            .article__date{
+                position:relative;
+                float:left;
+            }
+
 
 footer{
     background-color: lightgray;
