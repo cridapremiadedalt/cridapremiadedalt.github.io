@@ -35,7 +35,7 @@ El primer cop que s'executa s'ha de crear el entorn virtual i instalar-hi les de
 ```bash
 virtualenv venv
 source venv/Scripts/activate
-pip intall -r requirements
+pip install -r requirements.txt
 ```
 
 La resta de vegades que s'executi es pot fer activant el entorn prèviament creat i executant pelican.
